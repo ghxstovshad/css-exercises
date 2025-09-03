@@ -1,11 +1,16 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
 }
 
 .logo {
   font-size: 48px;
   font-weight: 900;
+  font-family: cursive;
   color: tomato;
   background: white;
   padding: 4px 32px;
@@ -14,12 +19,18 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  gap: 8px;
 }
 
 a {
-  font-size: 22px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background: white;
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
 }
+
