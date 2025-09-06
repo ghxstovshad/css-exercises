@@ -20,6 +20,34 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 10px 30px;
+}
+
+.header-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.left-wrapper .header {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.lorem-text {
+  padding: 0 50px;
+  max-width: 600px;
+  margin-bottom: 10px;
+}
+
+.modal-end {
+  padding: 0 50px;
 }
 
 .icon {

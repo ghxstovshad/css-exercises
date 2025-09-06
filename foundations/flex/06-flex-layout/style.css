@@ -5,6 +5,50 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.header, .footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.footer {
+  background: #eeeeee;
+  margin-top: auto;
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 8px;
+  text-decoration: none;
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: burlywood;
+}
+
+.main-content {
+  margin: auto;
+  text-align: center;
+}
+
+.content, .buttons {
+  margin-top: 15px;
+}
+
+.buttons button {
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttons button:hover{
+  outline: 2px solid burlywood;
 }
 
 img {
